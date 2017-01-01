@@ -1,3 +1,12 @@
+# --------------------------------------------------------------
+# Profile Settings
+# --------------------------------------------------------------
+avatar: https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAALSAAAAJDdiZjBjZTAzLTI5YzUtNDJmMi1hOGUyLWNkNGY1ZTczZjMwZg.jpg
+
+author: Lei Gong
+
+description: I build stuff and write about software development/craftsmanship.
+
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
@@ -6,21 +15,21 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "data science, technology, programming, software development, growth, commit logs, commitlogs, scala, spark, web development, machine learning,"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss:
+rss: /atom.xml
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -28,7 +37,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # ---------------------------------------------------------------
 # Menu Settings
@@ -38,10 +47,11 @@ seo: false
 menu:
   home: /
   #categories: /categories
-  #about: /about
-  archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
+  #schedule: /schedule
+  archives: /archives
+  about: /About
   #commonweal: /404.html
 
 
@@ -70,9 +80,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -145,10 +155,11 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
-  GitHub: github
   Twitter: twitter
+  GitHub: github
+  LinkedIn: linkedin
   Weibo: weibo
-
+  Contact: envelope
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -208,8 +219,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommand.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 150
+  enable: true
+  length: 500
 
 # Post meta display settings
 post_meta:
@@ -254,8 +265,8 @@ highlight_theme: normal
 
 # MathJax Support
 mathjax:
-  enable: false
-  per_page: false
+  enable: true
+  per_page: true 
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
@@ -269,7 +280,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: lei-gong
 
 # Hypercomments
 #hypercomments_id:
@@ -287,18 +298,18 @@ mathjax:
 # Share
 #jiathis:
 # Warning: JiaThis does not support https.
-#add_this_id:
+add_this_id: ra-57cc6969fe948040
 
 # Share
 #duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
-#google_site_verification:
+google_site_verification: Zqibe9a-H3xmpUfZofRbofarANkAKbRjIs07iLIVslw
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-83286843-1
 
 # CNZZ count
 #cnzz_siteid:
@@ -310,10 +321,10 @@ mathjax:
 # Make duoshuo show UA
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
-duoshuo_info:
-  ua_enable: true
-  admin_enable: false
-  user_id: 0
+#duoshuo_info:
+  #ua_enable: true
+  #admin_enable: false
+  #user_id: 0
   #admin_nickname: Author
 
 
