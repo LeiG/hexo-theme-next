@@ -10,7 +10,7 @@
 <div id="mc_embed_signup">
   <form action="//commitlogs.us14.list-manage.com/subscribe/post?u=6313029766166dc051a2e8268&amp;id=681c5b979d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-      <label style="color: #808080; font-size: 13px;">JOIN A COMMUNITY FOR MAKERS.</label>
+      <label style="color: #666666; font-size: 13px;">JOIN A COMMUNITY FOR MAKERS.</label>
       <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter your email..." required>
       <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_6313029766166dc051a2e8268_681c5b979d" tabindex="-1" value=""></div>
